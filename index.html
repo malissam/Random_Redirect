@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Switch-A-Roo</title>
+<title>Click-A-Roo</title>
+<link rel="stylesheet" type="text/css" href="../stylesheet.css">
+
 </head>
-<body onload="setTimeout(redirect, 3000)">
 
-<h1>HA</h1>
-<p>Switch Swap Bop</p>
+<body>
 
+<h1>!!!CLICK!!!!</h1>
+<p>If you dont press this button the page will redirect</p>
+<button onclick="redirect()">Click-A-Roo</button>
 <script>
 function redirect(){
-    window.location.replace("http://www.w3schools.com");
+    urlString = "https://www.github.com";
+    window.location = urlString;
+    //is valid
+
 }
+
+
 </script>
 </body>
 </html>
